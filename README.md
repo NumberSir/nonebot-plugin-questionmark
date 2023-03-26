@@ -28,6 +28,11 @@ nb plugin install nonebot_plugin_questionmark
 pip install -U nonebot_plugin_questionmark
 ```
 
+## 图片示例
+<div align="left">
+  <img src="[https://user-images.githubusercontent.com/52584526/218328316-9259d9e6-6c2f-40e9-87bd-cee68da240e2.png](https://user-images.githubusercontent.com/52584526/227782922-4ec367aa-f955-4b90-977f-b1b1da609ceb.png)" width="500" />
+</div>
+
 ## 更新日志
 > 2023-03-26 v0.1.1
 > - 优化实现
