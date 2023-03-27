@@ -35,7 +35,8 @@ pip install -U nonebot_plugin_questionmark
 </div>
 
 ## 更新日志
-> 2023-03-26 v0.1.1
+> 2023-03-27 v0.2.0
 > - 优化实现
+> 
 > 2023-03-26 v0.1.0
 > - 发布
