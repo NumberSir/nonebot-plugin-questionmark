@@ -32,7 +32,7 @@ pip install -U nonebot_plugin_questionmark
 ## 配置项
 ```ini
 QM_TRIGGER_RATE=0.3                # 触发回复概率，默认 0.3
-QM_ENABLE_GROUPS=[12345, 114514]   # 白名单群聊，仅列表内群聊可能触发回复
+QM_ENABLE_GROUPS=[12345, 114514, "all"]   # 白名单群聊，仅列表内群聊可能触发回复；当列表内为 "all" 时所有群聊均启用
 ```
 
 ## 图片示例
@@ -42,6 +42,9 @@ QM_ENABLE_GROUPS=[12345, 114514]   # 白名单群聊，仅列表内群聊可能�
 </div>
 
 ## 更新日志
+> 2023-05-03 v0.4.1
+> - 优化白名单 [@issue/3](https://github.com/NumberSir/nonebot-plugin-questionmark/issues/3)
+>
 > 2023-05-02 v0.4.0
 > - 添加概率触发回复功能
 > - 添加白名单群聊(仅qq可用)功能 [@issue/3](https://github.com/NumberSir/nonebot-plugin-questionmark/issues/3)

@@ -15,7 +15,7 @@ cfg = Config.parse_obj(get_driver().config.dict())
 
 async def trigger_rule(event: Event) -> bool:
     with contextlib.suppress(AttributeError, NotImplementedError):
-        if event.group_id not in cfg.qm_enable_groups:
+        if event.group_id not in cfg.qm_enable_groups and "all" not in cfg.qm_enable_groups:
             return False
     return random.random() <= cfg.qm_trigger_rate
 
